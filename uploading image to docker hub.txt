@@ -1,7 +1,0 @@
-docker hub image uploading
-
-
-docker login
-we should rename that first
-docker tag <image_name>:<tagname> <username>/<imagename>:<tagname>
-docker push docker_username/<imagename>:<tagname>
