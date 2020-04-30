@@ -1,0 +1,3 @@
+docker container run -it -d --name c3 mycentos:v1
+
+here -d used to run the os in detach mode, means we will get no shell, means to run in background
