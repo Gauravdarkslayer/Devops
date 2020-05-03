@@ -5,3 +5,5 @@ docker login
 we should rename that first
 docker tag <image_name>:<tagname> <username>/<imagename>:<tagname>
 docker push docker_username/<imagename>:<tagname>
+
+used to upload a docker image to docker hub
