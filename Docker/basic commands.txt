@@ -60,6 +60,3 @@ To see logs in real time
 docker logs -f c1
 
 
-
-To run the command inside docker and get the output
-docker exec <commandc1> date

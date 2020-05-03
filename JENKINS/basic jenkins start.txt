@@ -1,0 +1,32 @@
+yum install jenkins
+
+install java
+yum list | grep openjdk
+
+yum install java-11-openjdk.x86_64                      someversion
+
+systemctl start jenkins
+
+systemctl status jenkins
+192.168.0.162:8080 ->myip
+change password using manage users button
+
+
+create a job
+
+enter any item(job/project) name
+
+
+
+integrate jenkins with git 
+
+manage plugins -> Available plugins -> search for github
+-> install without restart(github)
+-> restart jenkins after downloading 
+-> go to source code management
+
+
+user of jenkins is jenkins itself
+
+To give jenkins user right to copy the files in this folder use command inside linux
+setfacl -m u:jenkins:rwx /var/www/html
